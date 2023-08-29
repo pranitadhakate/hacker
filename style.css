@@ -1,0 +1,31 @@
+.room-container {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+      grid-gap: 20px;
+      width: 800px;
+      margin: 20px auto;
+    }
+    
+    .room {
+      border: 2px solid #333;
+      padding: 10px;
+    }
+    
+    .student {
+      margin: 5px;
+      background-color: lightblue;
+      padding: 5px;
+      font-size: 12px;
+      transition: transform 0.5s, background-color 0.5s;
+    }
+    
+    .shuffle-button {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+    .head {
+      width: 300px;
+      margin: 20px auto;
+  
+    }
